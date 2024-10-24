@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    font-size: 3rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #448bb7;
+    color: white;
+    font-size: 2.5rem;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    padding: 1rem;
+}
+
+h1, h2, p {
+    text-align: left;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+p + p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: aquamarine;
+}
+
+a:hover {
+    opacity: .85;
+}
+
